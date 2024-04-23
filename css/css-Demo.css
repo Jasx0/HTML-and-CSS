@@ -1,0 +1,71 @@
+h3{
+    border: 1px solid black;
+    width: 200px;
+    height: 60px;
+    color: rgb(24,230,24);/*rgb----red,green,blue */
+    color: hsl(100, 30%, 40%);/* hue saturation light*/
+    color: black;
+    background-color:rgba(250,0,0,0.8);/* a-opacity(0-1)*/
+
+}
+.paradiv{
+    width:50%;
+    max-width: 1500px;
+}
+li{
+    display:inline-block;
+    margin: 10px;
+}
+.coming-soon{
+    visibility: hidden;
+
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-size:12px; */
+    /* font-weight:bold;
+    font-style:italic; */
+    /* font-stretch: expanded; */
+    /* text-transform:capitalize; */
+    /* text-decoration:line-through; */
+
+} 
+p{
+    /* line-height: 2em;
+    letter-spacing: .5em;
+    word-spacing: 2em; */
+    border: 1px solid black;
+    width:50%;
+    height: 700px;
+    background-color: blanchedalmond;
+    padding:10px;
+    /* border-radius:10px;
+    box-shadow: 10px 10px 10px grey ; */
+    
+
+/* 
+    text-align: left;
+    vertical-align: buttom;
+    text-indent:10em; */
+    /* text-shadow: 2px,2px,2px,yellow; */
+    
+
+}
+p::first-letter{
+    font-size: 5em;
+}
+a:link{
+    color: blue;
+    border: 1px solid black;
+
+}
+a:visited{
+    color: brown;
+}
+a:focus{
+    color: green;
+}
+a:active{
+    color: deeppink;
+}

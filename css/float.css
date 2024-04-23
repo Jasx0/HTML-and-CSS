@@ -1,0 +1,8 @@
+.col p{
+    width:30%;
+    float:right;
+
+}
+.col p:nth-child(4){
+    clear:right;
+}

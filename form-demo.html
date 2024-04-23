@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="signup-result.html"  method="get" enctype="multipart/form-data">
+        <div>
+        <label for="username">User Name</label>
+        <input type="text" name="username" id="username" placeholder="UserName" value="karthi" size="9">
+
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" maxlength="5">
+    
+            </div>
+            <div>
+                <label for="dateofbirth">Date of Birth</label>
+                <input type="date" name="dateofbirth" id="dateofbirth" min="2001" max="2024" step="3">
+            </div>
+            <div>
+                <label for="about"> About</label>
+                <textarea name="about" id="about" cols="30" rows="10">About me</textarea>
+
+            </div>
+            <div>
+                <input type="checkbox" name="smasalert" id="smasalert">
+                <label for="smasalert">SMS Alert</label>
+            </div>
+            <div>
+                <input type="checkbox" name="emailalert" id="emailalert">
+                <label for="emailalert">Email Alert</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="Male" value="Male">
+                <label for="Male">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="Female" value="Female">
+                <label for="Female">Female</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="Custom" value="Custom">
+                <label for="Custom" >Custom</label>
+            </div>
+            <input type="hidden" name="hidden" value="2345">
+            <div>
+                <select name="state" id="state" multiple>
+                    <option value="tamilnadu">Tamilnadu</option>
+                    <option value="kerla">Kerla</option>
+                    <option value="ap">
+                        Ap
+                    </option>
+                </select> 
+
+            </div>
+            <label for="file">Resume</label>
+            <input type="file" name="file" id="file">
+        
+          <input type="image" src="images/submit img.jpg " width="100px" align="left">
+            <button type="reset">Reset</button>
+        
+    </form>
+    
+</body>
+</html>

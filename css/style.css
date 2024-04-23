@@ -1,0 +1,36 @@
+/*universal selectors */
+
+*{
+    color: blue;
+}
+/*grouping selectors */
+h2,h1{
+    color: yellow !important;
+}
+/* id selectors*/
+#soft-Dev{
+    color: green;
+}
+/*  class selectors*/
+.green-Text{
+    color: orange;
+}
+
+/*  child selectors*/
+div>p{
+    color: red;
+}
+
+/*  descendant selectors*/
+div a{
+    color: darkblue;
+}
+/* sibling selectors*/
+h2~h4{
+    color: black;
+}
+/*  adjacent sibling selectors*/
+h1+h2{
+    color: aqua;
+}
+

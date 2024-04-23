@@ -1,0 +1,46 @@
+.para1{
+    background-color: aqua;
+    flex: 2;
+    order:1;
+}
+.para2{
+    background-color: yellow;
+    flex: 2;
+    order:3;
+
+}
+.para3{
+    background-color: blue;
+    flex: 3;
+    order: 2;
+
+}
+
+
+@media all and (min-width:801px){
+  .container p{
+    width: 100px;
+    float: left;
+    padding: 100px;
+  }
+
+}
+.container{
+  display: flex;
+
+}
+
+.outer-box{
+  background-color: beige;;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.box{
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+  border: 2px solid white;
+}
